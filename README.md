@@ -58,17 +58,17 @@
 4. Run "npm run test" to run all unit test
 
 #### Introduction
-Main functions are all in /src/modules
-message folder includes code to persist customer message and get customer message.
-email folder includes code to send emails.
-The index files define path, db file keeps database functions, controller files force on function implementation.
-Database operation queries are stored in src/query folder
-Tests are stored in src/tests folder, it includes both endpoints testing and unit testing(for your convenience, I put them all together, but should put them to different place)
-All database Credentials are below, you can access to check data.(only one table named message)
+# Main functions are all in /src/modules
+# message folder includes code to persist customer message and get customer message.
+# email folder includes code to send emails.
+# The index files define path, db file keeps database functions, controller files force on function implementation.
+# Database operation queries are stored in src/query folder
+# Tests are stored in src/tests folder, it includes both endpoints testing and unit testing(for your convenience, I put them all together, but should put them to different place)
+# All database Credentials are below, you can access to check data.(only one table named message)
 #### Database Credentials
-Host: ec2-54-204-46-236.compute-1.amazonaws.com
-Database: ddosalg65ul7iq
-User: uwmsabfmsdtrmy
-Port: 5432
-Password: fc3c69a6c67c6ecaf8c951adb43bf0047ed3fc30c806ddbbeae7d5b7e9351c73
-URI: postgres://uwmsabfmsdtrmy:fc3c69a6c67c6ecaf8c951adb43bf0047ed3fc30c806ddbbeae7d5b7e9351c73@ec2-54-204-46-236.compute-1.amazonaws.com:5432/ddosalg65ul7iq
+# Host: ec2-54-204-46-236.compute-1.amazonaws.com
+# Database: ddosalg65ul7iq
+# User: uwmsabfmsdtrmy
+# Port: 5432
+# Password: fc3c69a6c67c6ecaf8c951adb43bf0047ed3fc30c806ddbbeae7d5b7e9351c73
+# URI: postgres://uwmsabfmsdtrmy:fc3c69a6c67c6ecaf8c951adb43bf0047ed3fc30c806ddbbeae7d5b7e9351c73@ec2-54-204-46-236.compute-1.amazonaws.com:5432/ddosalg65ul7iq
