@@ -30,8 +30,8 @@
     methid: POST
     request body(JSON format)
     {
-    	"name": "chase",
-    	"email":"bphan625@gmail.com",
+    	"name": "xxx",
+    	"email":"xxx",
     	"subject":"testing",
     	"details":"bbb"
     }
@@ -41,9 +41,9 @@
     methid: POST
     request body(JSON format)
     {
-    	"name": "chase",
-    	"email":"bphan625@gmail.com",
-    	"mobile":"0405285025",
+    	"name": "xxx",
+    	"email":"xxx",
+    	"mobile":"xxxx",
     	"subject":"testing",
     	"details":"The testing email content."
     }
@@ -67,11 +67,3 @@
 # The index files define path, db file keeps database functions, controller files force on function implementation.
 # Database operation queries are stored in src/query folder
 # Tests are stored in src/tests folder, it includes both endpoints testing and unit testing(for your convenience, I put them all together, but should put them to different place)
-# All database Credentials are below, you can access to check data.(only one table named message)
-#### Database Credentials
-# Host: ec2-54-204-46-236.compute-1.amazonaws.com
-# Database: ddosalg65ul7iq
-# User: uwmsabfmsdtrmy
-# Port: 5432
-# Password: fc3c69a6c67c6ecaf8c951adb43bf0047ed3fc30c806ddbbeae7d5b7e9351c73
-# URI: postgres://uwmsabfmsdtrmy:fc3c69a6c67c6ecaf8c951adb43bf0047ed3fc30c806ddbbeae7d5b7e9351c73@ec2-54-204-46-236.compute-1.amazonaws.com:5432/ddosalg65ul7iq
