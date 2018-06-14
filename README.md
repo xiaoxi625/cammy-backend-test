@@ -9,7 +9,7 @@
 ##### Running tests
 * run all tests `npm run test`
 # Default email is not abc@cammy.com because mailgun account is testing one, so there is no auth from abc@cammy.com
-# Two auth gmail account are  chase.cammy.test@gmail.com and bphan625@gmail.com, only these two email address is working properly.
+# Two auth gmail account are  xxx.cammy.test@gmail.com and xxx@gmail.com, only these two email address is working properly.
 
 
 ##### Release notes
